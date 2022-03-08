@@ -11,5 +11,9 @@ def index():
 def xd():
     return render_template("xd.html")
 
+@app.route('/flaga-dla-ukrainy')
+def flaga_dla_ukrainy():
+    return render_template("ukraina.html")
+
 if __name__=="__main__":
     app.run()
